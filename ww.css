@@ -1,0 +1,92 @@
+#text {
+    margin-left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: monospace;
+    animation: colorRotate 0.0001s linear 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+        color: #6666ff;
+    }
+    10% {
+        color: #0099ff;
+    }
+    50% {
+        color: #00ff00;
+    }
+    75% {
+        color: #ff3399;
+    }
+    100% {
+        color: #6666ff;
+    }
+  }
+  #header {
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.4);
+    margin-left: 5cm;
+    margin-right: 5cm;
+  }
+  #textt {
+    margin-left: 50%;
+    font-size: 20px;
+    color: black;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: monospace;
+    
+
+  }
+body {
+    background-image: url(https://dynamicmedia.livenationinternational.com/p/c/n/3e41ec29-e750-40c1-99e8-1b05479f7247.jpg);
+    background-repeat: round;
+}
+.butn{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+.header_nuts{
+    text-align: center;
+}
+#texttt {
+    margin-left: 50%;
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: monospace;
+    animation: colorRotate 0.0001s linear 0s infinite;
+  }
+  @keyframes colorRotate {
+    from {
+        color: #6666ff;
+    }
+    10% {
+        color: #0099ff;
+    }
+    50% {
+        color: #00ff00;
+    }
+    75% {
+        color: #ff3399;
+    }
+    100% {
+        color: #6666ff;
+    }
+  }
